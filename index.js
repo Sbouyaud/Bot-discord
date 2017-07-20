@@ -4,10 +4,10 @@ const bot = new Discord.Client()
 
 var Twitter = require('twitter')
 var twitter = new Twitter({
-  consumer_key: 'XGlxLzZBMy2Xw0B4gMKrEMwHx',
-  consumer_secret: 'BaSZp19yChLPIxgt5Wzg9G0R3KxKflufOWHCdWNqg7DzHJZbUX',
-  access_token_key: '859670215029862400-BmYzgPwl3wsrQAtWTVtY88m2YrPOke4',
-  access_token_secret: 'N7YjLCKy3eoTLczPw1793SWpKcTifwhA7xauoAWR4vrfo',
+  consumer_key: '',
+  consumer_secret: '',
+  access_token_key: '',
+  access_token_secret: '',
 })
 bot.on('ready', () => {
   console.log('Steins prête!')
